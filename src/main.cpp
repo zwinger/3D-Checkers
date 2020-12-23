@@ -408,23 +408,6 @@ public:
             colorTileOriginalColor(curTile);
             setPieceTarget(selectedPiece, curTile);
 
-            /*if (playerTurn == 1)
-            {
-               if (player1Pieces.size() > 0)
-               {
-                  curTile->position.x = player2Pieces[0]->position.x;
-                  curTile->position.z = player2Pieces[0]->position.z;
-               }
-            }
-            else
-            {
-               if (player2Pieces.size() > 0)
-               {
-                  curTile->position.x = player1Pieces[0]->position.x;
-                  curTile->position.z = player1Pieces[0]->position.z;
-               }
-            }*/
-
             selectedTile = NULL;
             selectingPiece = 1;
          }
